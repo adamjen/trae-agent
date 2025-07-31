@@ -39,7 +39,7 @@ class TestOllamaClient(unittest.TestCase):
             8,
             False,
             1,
-            "http://localhost:11434/v1",
+            "http://localhost:1234/v1",  # LM Studio port
             None,
         )
         ollama_client = OllamaClient(model_parameters)

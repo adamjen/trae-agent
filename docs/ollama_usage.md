@@ -18,7 +18,7 @@ Set the following environment variables:
 # Ollama API key (can be any string, typically "ollama")
 export OLLAMA_API_KEY="your_api_key"
 
-# Ollama base URL (default is http://localhost:11434/v1)
+# Ollama/LM Studio base URL (default is http://localhost:1234/v1 for LM Studio, http://localhost:11434/v1 for standard Ollama)
 export OLLAMA_BASE_URL="http://your_ollama_server:port/v1"
 ```
 
