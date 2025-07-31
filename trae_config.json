@@ -4,7 +4,7 @@
         "ollama": {
             "api_key": "lmstudio",
             "base_url": "http://localhost:1234/v1",
-            "model": "devstral",
+            "model": "Devstral-Small-2507-Q4_K_M",
             "max_tokens": 4096,
             "temperature": 0.1,
             "top_p": 1,
