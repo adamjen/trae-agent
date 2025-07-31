@@ -82,7 +82,8 @@ class OllamaClient(BaseLLMClient):
         msgs: ResponseInputParam = self.parse_messages(messages)
 
         tool_schemas = None
-        if tools:
+        # Only use tools if the model supports them and tools are provided
+        if tools and self.supports_tool_calling(model_parameters):
             tool_schemas = [
                 FunctionToolParam(
                     name=tool.name,
