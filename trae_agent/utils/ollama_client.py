@@ -169,6 +169,7 @@ class OllamaClient(BaseLLMClient):
             "phi4-mini",
             "granite3.3",
             "devstral",
+            "Devstral-Small-2507-Q4_K_M",  # LM Studio model
             "mistral-small3.1",
             "qwen3:4b.",
         ]
